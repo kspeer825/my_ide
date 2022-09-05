@@ -5,32 +5,33 @@
 command -v brew >/dev/null 2>&1 || \
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install a terminal 
+# Install a terminal
 brew install --cask iterm2
 # Configure terminal
-# TODO 
+# TODO
 
 # Install an editor
 brew install emacs
 # Configure editor
-# TODO 
+# TODO
 
 # Install a multiplexer
 brew install tmux
 # Configure multiplexer
-# TODO 
+# TODO
 
 # Install a global key-mapper
 brew install --cask karabiner-elements
 # Configure key-mapper
-# TODO 
+# TODO
 
 # Install Brave
 brew install --cask brave-browser
 # Configure browser
-# TODO 
+# TODO
 
 
 # Ensure setup was successful
-echo "Execute the following in iTerm: setup_health.sh"
-open iTerm.app
+echo "To validate setup execute the following:
+  open iTerm.app
+  bash my_ide-main/setup_health.sh"

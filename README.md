@@ -1,17 +1,23 @@
 # my_ide
 An automated installation of my IDE (and some other tools).
 ## Includes (In Progress)
-* `brew`  [] Install [] Configuration
-* `iterm`  [] Install [] Configuration
-* `emacs`  [] Install [] Configuration
-* `tmux`  [] Install [] Configuration
-* `karabiner-elements`  [] Install [] Configuration
-* `brave`  [] Install [] Configuration
-* `iterm`  [] Install [] Configuration
+
+
+ | Application          | Installation | Configuration |
+ |:---------------------|:-------------|:--------------|
+ | `brew`               | [x]          | [ ]           |
+ | `iterm`              | [x]          | [ ]           |
+ | `emacs`              | [x]          | [ ]           |
+ | `tmux`               | [x]          | [ ]           |
+ | `karabiner-elements` | [ ]          | [ ]           |
+ | `brave`              | [ ]          | [ ]           |
+
+
 ## Supported Operating Systems
-* MacOS
-  * TODO
-* Windows
-  * TODO
-* Linux
-  * TODO
+ | OS               | Status     |
+ |:-----------------|:-----------|
+ | `MacOS`          | InProgress |
+ | `Windows`        | To Do      |
+ | `Linux (ubuntu)` | To Do      |
+ | `Linux (kali)`   | To Do      |
+

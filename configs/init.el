@@ -2,6 +2,7 @@
 (setq frame-background-mode 'dark)
 
 ;; Required pacakges
+(package-initialize)
 (add-to-list 'package-archives
 	     '("melpa-stable" . "https://stable.melpa.org/packages/")
 	     t)
@@ -33,13 +34,12 @@
 ;; Don't send mail
 (global-unset-key (kbd "C-x m"))
 ;; Set smex
-(global-set-key (kbd "M-x") 'smex)
+;;(global-set-key (kbd "M-x") 'smex)
 ;; enable ag via minibuffer
 (autoload 'ag/read-from-minibuffer "ag")
 
-
 ;; Org
-(require 'org-tempo)
+;; (require 'org-tempo)
 
 ;; Custom
 (custom-set-variables
